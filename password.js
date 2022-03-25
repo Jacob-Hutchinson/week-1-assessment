@@ -9,7 +9,7 @@
             //    }
             
             // });
-            
+
             const { Console } = require('console');
             const readline = require('readline');
             
@@ -19,9 +19,15 @@
             });
             
             reader.question("Welcome, " + "please enter password", function(answer) {
-                if(answer.length > 10){
-                    console.log("successful")
-                }else{
+                
+                if(answer.length >= 20 && answer.length > 10){
+                    console.log("strong password")
+                }else if(answer.length > 10){
+                    console.log("success")
+                }else if( answer.length === 0){
+                    console.log("please enter password")
+                }
+                else{
                     console.log("failure")
                 }
                 console.log(answer);
