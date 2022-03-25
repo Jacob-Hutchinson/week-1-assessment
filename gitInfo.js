@@ -59,7 +59,7 @@ console.log(gitStatusDefinition)
     Create another variable called 'gitAddCode'.  
     It should be a string containing the code to add all files.
 */
-
+//git - (-)is called a flag
 //CODE HERE
 let gitAddDefinition = 'adds changed files in the working directory to the staging area';
 
@@ -75,7 +75,7 @@ let gitAddCode = 'git add -a'
 */
 
 //CODE HERE
-let gitCommitDefinition = 'takes a picture of the files youre tracking';
+let gitCommitDefinition = 'takes a picture of the files youre tracking at the time its run';
 let gitCommitCode = 'git commit -m "initial commit"';
 // console.log(gitCommitCode)
 

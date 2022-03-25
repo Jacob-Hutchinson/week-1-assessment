@@ -6,6 +6,7 @@ const faveColors = ['red', 'green', 'black']
 //CODE HERE
 
 let colorCopy = faveColors.slice(0,3)
+//dont have to define .splice() to copy everything in an array
 // console.log(colorCopy)
 
 //////////////////PROBLEM 2////////////////////
@@ -24,8 +25,9 @@ colorCopy.push("yellow")
 const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
-
-let middleNums = numbers.splice(1, 3)
+const middleNums = numbers.slice(1,4)
+//does not alter makes a copy
+// let middleNums = numbers.splice(1, 3) modifies the array
 // console.log(middleNums)
 
 //////////////////PROBLEM 4////////////////////

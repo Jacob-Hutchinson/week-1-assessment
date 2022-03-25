@@ -8,8 +8,8 @@
 // Planning
 // Analysis of Requirements
 // Design
-// Testing & Integration
 // Implementation
+// Testing & Integration
 // Maintain
 
 
@@ -19,8 +19,13 @@
     The first one is done for you. 
 */
 const planning = "This is the first step, in which the end goal of the software is determined and defined. Developers typically will see what systems are already in place, and determine what features will need to be added." 
+
 const AnalysisOfRequirements = 'to understand and document what is needed by the user and developers';
+
 const design = 'solutions to the problem presented by the requirements.';
-const testingAndIntegration = 'trying the code before it get rolled out for bugs and how it runs is it functional';
+
 const implementation = 'itergrating the new code to existing code or rolling out the software';
+
+const testingAndIntegration = 'trying the code before it get rolled out for bugs and how it runs is it functional';
+
 const maintain = 'the quality of the application and delivery';
